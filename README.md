@@ -7,5 +7,6 @@ Hvordan kan vi være med til at måle CO2-nivueaet i vores klasse? Vi regner med
 # Flowchart
 
 Nedenstående har vi vedhæftet vores flowchart:
+
 <img width="179" height="338" alt="Skærmbillede 2026-03-12 094041" src="https://github.com/user-attachments/assets/3f23672f-7db8-4cc8-af37-2c5e62b5d98e" />
 
