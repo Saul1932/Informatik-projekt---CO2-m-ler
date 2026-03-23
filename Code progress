@@ -1,4 +1,4 @@
-*// Nu fungerer det ift. målinger samt skærm, men den skal optimeres og forbedres. 
+*// Nu fungerer det ift. målinger samt skærm, men den skal optimeres og forbedres. NYT ER EN BUZZER, DER AKTIVERES VED EN MÅLING DER ER PÅ 1200 ELLER DEROVER!
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -20,11 +20,12 @@ void setup()
   if (mySensor.begin() == false)
   {
     Serial.println(F("Sensor not detected. Please check wiring. Freezing..."));
-    while (1)
-      ;
+    while (1);
   }
 
   u8g2.begin();
+
+  pinMode(6, OUTPUT);
 
 }
 
@@ -48,5 +49,11 @@ void loop()
     u8g2.sendBuffer();
     Serial.println();
   }
+if (co2>1200){
+  digitalWrite(6, HIGH);
+  delay(1000);
+  digitalWrite(6, LOW);
+  delay(1000);
+}
 
 }
