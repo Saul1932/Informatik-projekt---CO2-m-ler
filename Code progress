@@ -1,5 +1,4 @@
 *// Nu fungerer det ift. målinger samt skærm, men den skal optimeres og forbedres. NYT ER EN BUZZER, DER AKTIVERES VED EN MÅLING DER ER PÅ 1200 ELLER DEROVER!
-
 #include <Arduino.h>
 #include <Wire.h>
 #include <U8g2lib.h>
@@ -34,8 +33,10 @@ void loop()
   if (mySensor.readMeasurement()) // readMeasurement will return true when fresh data is available
   {
     delay(100);
-    Serial.print(mySensor.getCO2());
-    Serial.print("CO2: ");
+    co2 = mySensor.getCO2();
+
+   // Serial.print(mySensor.getCO2());
+    Serial.print("CO2:");
     Serial.println(co2);
 
     char buffer[16];
@@ -43,12 +44,11 @@ void loop()
 
     u8g2.clearBuffer();
     
-    co2 = mySensor.getCO2();
-    u8g2.setFont(u8g2_font_ncenB08_tr);
-    u8g2.drawStr(0, 10, buffer);
+    u8g2.setFont(u8g2_font_ncenB14_tr);
+    u8g2.drawStr(-1, 30, buffer);
     u8g2.sendBuffer();
-    Serial.println();
-  }
+   // Serial.println();
+}
 if (co2>1200){
   digitalWrite(6, HIGH);
   delay(1000);
