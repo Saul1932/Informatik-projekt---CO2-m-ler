@@ -24,7 +24,7 @@ Vi har valgt at benytte os af en arduino uno, co2 måler, og en lcd skærm samt 
 
 
 
-# Kodeprocessen
+# Koden
 
 
 <img width="437" height="143" alt="image" src="https://github.com/user-attachments/assets/cda5c675-1774-45c3-a1e2-345a2511b9aa" /> 1
