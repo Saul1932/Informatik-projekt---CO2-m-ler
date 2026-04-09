@@ -15,14 +15,16 @@ Nedenstående har vi vedhæftet vores flowchart:
 Vi har valgt at benytte os af en arduino uno, co2 måler, knap, og en lcd skærm samt nogle kabler, der kan forbinde det hele. 
 
 
-### 08-04-2026
-vi har finpusset på vores kode den er utrolig tæt på at være færdig
-vi har yderligere lavet og printet boxen til vores arduino
+# 3D-modellering og printning
+
+
+# Kodeprocessen, og hvordan den fulgte flowchartet
+
 
 
 # Fra arduino til excel - overførsel 
 
-Vha. "realterm" programmet, kunne vi overføre dataen til en tekstfil, da både programmet og vores arduino deler samme baud.
+Vha. "realterm" programmet, kunne vi overføre dataen til en tekstfil, da både programmet og vores arduino deler samme baud (115200).
 
 <img width="215" height="193" alt="image" src="https://github.com/user-attachments/assets/fa73783c-1a18-4028-abb4-6bebd88f2e5c" />
 
