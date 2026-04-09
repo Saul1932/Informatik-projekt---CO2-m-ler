@@ -15,3 +15,7 @@ Nedenstående har vi vedhæftet vores flowchart:
 Vi har valgt at benytte os af en arduino uno, co2 måler, knap, og en lcd skærm samt nogle kabler, der kan forbinde det hele. 
 
 
+### 08-04-2026
+vi har finpusset på vores kode den er utrolig tæt på at være færdig
+vi har yderligere lavet og printet boxen til vores arduino
+
