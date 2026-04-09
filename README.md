@@ -19,3 +19,7 @@ Vi har valgt at benytte os af en arduino uno, co2 måler, knap, og en lcd skærm
 vi har finpusset på vores kode den er utrolig tæt på at være færdig
 vi har yderligere lavet og printet boxen til vores arduino
 
+
+
+
+
