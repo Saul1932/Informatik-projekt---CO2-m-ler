@@ -45,12 +45,12 @@ Vi har valgt at benytte os af en arduino uno, co2 måler, og en lcd skærm samt 
 
 # Fra arduino til excel - overførsel 
 
-Vha. "realterm" programmet, kunne vi overføre dataen til en tekstfil, da både programmet og vores arduino deler samme baud (115200).
+Vha. RealTerm programmet, kunne vi "optage" og overføre dataen til en tekstfil, da både programmet og vores arduino deler samme baud (115200) samt port.
 
 <img width="215" height="193" alt="image" src="https://github.com/user-attachments/assets/fa73783c-1a18-4028-abb4-6bebd88f2e5c" />
 
 
-der bliver opdateret måling efter måling. Hermed kunne denne tekstfil laves om til en graf:
+Hermed kunne vi senere overføre tekstfilen til excel, og dermed lave grafen ud fra vores foretaget måling(er):
 
 
 <img width="841" height="455" alt="image" src="https://github.com/user-attachments/assets/59821fe6-1124-46ac-9bab-84452ea99e48" />
