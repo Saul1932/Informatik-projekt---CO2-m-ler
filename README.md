@@ -60,6 +60,7 @@ Hermed kunne vi senere overføre tekstfilen til excel, og dermed lave grafen ud 
 vi har undergået mange iterationer og ændringer i forhold til at skulle lave vores box vi startede selvfølgelig med at måle alle vores apparater som vi derefter brugte til at modellere vores model i Fution af
 <img width="1905" height="761" alt="image" src="https://github.com/user-attachments/assets/9e2cda19-3548-4d5c-839c-50ec3ec4caf1" />
 
+
 efter modellering lage vi den over i Bambu labs program som ville kunne oversætte vores model til et 3D print
 <img width="1881" height="887" alt="image" src="https://github.com/user-attachments/assets/027d7a48-5dd0-423b-825f-7452b6e42d70" />
 
