@@ -20,7 +20,7 @@ vi har finpusset på vores kode den er utrolig tæt på at være færdig
 vi har yderligere lavet og printet boxen til vores arduino
 
 
-# Fra arduino til excel - overføresel 
+# Fra arduino til excel - overførsel 
 
 Vha. "realterm" programmet, kunne vi overføre dataen til en tekstfil, da både programmet og vores arduino deler samme baud.
 
