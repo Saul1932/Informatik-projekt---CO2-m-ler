@@ -20,10 +20,6 @@ Sidste iteration (simplificering) grundet tekniske problemer samt ændringer:
 Vi har valgt at benytte os af en arduino uno, co2 måler, og en lcd skærm samt nogle kabler, der kan forbinde det hele. 
 
 
-# 3D-modellering og printning
-
-
-
 # Koden
 
 
